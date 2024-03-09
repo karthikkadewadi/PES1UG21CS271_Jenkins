@@ -6,7 +6,7 @@ pipeline {
             steps {
                 // Compile the .cpp file using a shell script
                 sh 'g++ -o PES1UG21CS271 BUILDTESTDEPLOYFILE.cpp'
-                hi
+                
             }
         }
         stage('Test') {
