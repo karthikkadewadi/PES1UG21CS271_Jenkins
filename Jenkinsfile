@@ -12,7 +12,7 @@ pipeline {
         stage('Test') {
             steps {
                 // Print output of the .cpp file using a shell script
-                sh './PES1UG21CS271'
+                sh './PES1UG21CS27'
             }
         }
         stage('Deploy') {
